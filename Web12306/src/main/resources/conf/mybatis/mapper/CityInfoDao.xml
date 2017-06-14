@@ -12,8 +12,10 @@
 		<result column="father" property="father" />
 	</resultMap>
 
+	<!-- id查询城市信息 -->
 	<select id="queryCityById" resultMap="cityMap" parameterType="int">
 		select * from tab_city where id = #{id}
 	</select>
-
+	
+	
 </mapper>
