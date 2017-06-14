@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC    
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"    
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+	<constant name="struts.enable.SlashesInActionNames" value="false" /> <!-- 是否允许action名中使用斜线 '/' -->
+ 
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    
+    <!-- 开发者模式 -->
+    <constant name="struts.devMode" value="true" />
+    
+	<constant name="struts.locale" value="zh" />
+	
+	<constant name="struts.configuration.xml.reload" value="true" />
+	
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    
+    <constant name="struts.i18n.reload" value="true" />
+    
+	<constant name="struts.custom.i18n.resources" value="conf/properties/resources" />
+	
+	<constant name="struts.action.extension" value="do,htm" />
+	
+    <constant name="struts.multipart.maxSize" value="115292150460" />
+    
+	<constant name="struts.multipart.saveDir" value="/tmp" />
+	
+	<constant name="struts.objectFactory" value="spring" />
+	
+	<constant name="struts.action.excludePattern" value="/baseConsole/javascript/.*" />
+
+
+	<include file="conf/struts/**/struts-*.xml" />
+
+</struts>
