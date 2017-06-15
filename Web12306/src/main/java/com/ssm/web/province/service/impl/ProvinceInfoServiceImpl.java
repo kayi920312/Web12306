@@ -10,15 +10,15 @@ import org.springframework.stereotype.Service;
 
 import com.ssm.web.province.dao.ProvinceInfoDao;
 import com.ssm.web.province.model.ProvinceInfo;
-import com.ssm.web.province.service.ProvinceService;
+import com.ssm.web.province.service.ProvinceInfoService;
 
-@Service("provinceServiceImpl")
-public class ProvinceServiceImpl implements ProvinceService {
+@Service("provinceInfoServiceImpl")
+public class ProvinceInfoServiceImpl implements ProvinceInfoService {
 
 	@Resource(name="provinceInfoDao")
 	private ProvinceInfoDao provinceInfoDao;
 	
-	private static Logger logger= Logger.getLogger(ProvinceServiceImpl.class);
+	private static Logger logger= Logger.getLogger(ProvinceInfoServiceImpl.class);
 	
 	/**
 	 * 参数查询省份信息

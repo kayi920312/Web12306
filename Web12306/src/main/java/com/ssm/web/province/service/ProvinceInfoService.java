@@ -9,7 +9,7 @@ import com.ssm.web.province.model.ProvinceInfo;
  * @author kaiying.chen
  *
  */
-public interface ProvinceService {
+public interface ProvinceInfoService {
 	
 	//参数查询省份信息 
 	List<ProvinceInfo> queryProvincesByParam(Map<String, Object> param); 

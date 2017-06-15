@@ -11,9 +11,18 @@ import com.ssm.web.city.model.CityInfo;
  */
 public interface CityInfoService {
 
-	//根据参数查询城市信息
+	/**
+	 * 根据参数查询城市信息
+	 * @param param
+	 * @return
+	 */
 	List<CityInfo> queryCitiesByParam(Map<String, Object> param);
-	//根据参数查询城市，包含其所属省份信息
+	
+	/**
+	 * 根据参数查询城市，包含其所属省份信息
+	 * @param param
+	 * @return
+	 */
 	List<CityInfo> queryCitiesWithProvinceByParam(Map<String, Object> param);
 	
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC    
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"    
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    
+<struts>
+	<package name="provinceInfoJson" extends="json-default" namespace="/province" >
+	
+		<!-- 参数查询省份信息 -->
+		<action name="queryProvincesByParam" class="provinceInfoAction" method="queryProvincesByParam">
+			<result type="json" />
+		</action>
+		
+		<!-- 参数查询省份，包含其城市信息 -->
+		<action name="queryProvincesWithCitiesByParam" class="provinceInfoAction" method="queryProvincesWithCitiesByParam">
+			<result type="json" />
+		</action>
+		
+	</package>
+	
+</struts>    

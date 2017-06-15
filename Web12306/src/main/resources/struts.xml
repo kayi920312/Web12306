@@ -4,11 +4,10 @@
     "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 
-	<constant name="struts.enable.SlashesInActionNames" value="false" /> <!-- 是否允许action名中使用斜线 '/' -->
+	<constant name="struts.enable.SlashesInActionNames" value="false" />
  
-    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
     
-    <!-- 开发者模式 -->
     <constant name="struts.devMode" value="true" />
     
 	<constant name="struts.locale" value="zh" />

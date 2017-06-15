@@ -1,4 +1,4 @@
-package com.ssm.web.city.action;
+package com.ssm.web.province.action;
 
 import java.util.HashMap;
 import java.util.List;
@@ -9,28 +9,28 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
 
-import com.ssm.web.city.model.CityInfo;
-import com.ssm.web.city.service.CityInfoService;
+import com.ssm.web.province.model.ProvinceInfo;
+import com.ssm.web.province.service.ProvinceInfoService;
 
 import util.EmptyUtils;
 import util.GsonUtil;
 import util.HttpUtils;
 
 /**
- * 城市信息Action
- * @author kayi9
+ * 省份信息Action
+ * @author kaiying.chen
  *
  */
-@Controller("cityInfoAction")
-public class CityInfoAction {
+@Controller("provinceInfoAction")
+public class ProvinceInfoAction {
 	
-	@Resource(name="cityInfoServiceImpl")
-	private CityInfoService cityInfoService;
+	@Resource(name="provinceInfoServiceImpl")
+	private ProvinceInfoService provinceInfoService;
 	
 	/**
-	 * 参数查询城市信息
+	 * 参数查询省份信息
 	 */
-	public void queryCitiesByParam(){
+	public void queryProvincesByParam(){
 		HttpServletRequest request = HttpUtils.getHttpServletRequest();
 		String id = request.getParameter("id");
 		Map<String, Object> result = new HashMap<String, Object>();
@@ -44,11 +44,11 @@ public class CityInfoAction {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("id", id);
 		
-		List<CityInfo> cities = cityInfoService.queryCitiesByParam(param);
-		if(cities!=null&&cities.size()>0){
+		List<ProvinceInfo> provinces = provinceInfoService.queryProvincesByParam(param);
+		if(provinces!=null&&provinces.size()>0){
 			result.put("result_code", "0");
 			result.put("result_msg", "查询成功");
-			result.put("citis", cities);
+			result.put("provinces", provinces);
 		}else{
 			result.put("result_code", "1");
 			result.put("result_msg", "没有找到数据");
@@ -58,9 +58,9 @@ public class CityInfoAction {
 	}
 	
 	/**
-	 * 根据参数查询城市，包含其所属省份信息
+	 * 参数查询省份，包含其城市信息
 	 */
-	public void queryCitiesWithProvinceByParam(){
+	public void queryProvincesWithCitiesByParam(){
 		HttpServletRequest request = HttpUtils.getHttpServletRequest();
 		String id = request.getParameter("id");
 		Map<String, Object> result = new HashMap<String, Object>();
@@ -74,11 +74,11 @@ public class CityInfoAction {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("id", id);
 		
-		List<CityInfo> cities = cityInfoService.queryCitiesWithProvinceByParam(param);
-		if(cities!=null&&cities.size()>0){
+		List<ProvinceInfo> provinces = provinceInfoService.queryProvincesWithCitiesByParam(param);
+		if(provinces!=null&&provinces.size()>0){
 			result.put("result_code", "0");
 			result.put("result_msg", "查询成功");
-			result.put("citis", cities);
+			result.put("provinces", provinces);
 		}else{
 			result.put("result_code", "1");
 			result.put("result_msg", "没有找到数据");
