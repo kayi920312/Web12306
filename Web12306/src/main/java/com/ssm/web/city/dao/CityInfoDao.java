@@ -1,5 +1,8 @@
 package com.ssm.web.city.dao;
 
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.stereotype.Repository;
 
 import com.ssm.web.city.model.CityInfo;
@@ -11,7 +14,8 @@ import com.ssm.web.city.model.CityInfo;
 @Repository("cityInfoDao")
 public interface CityInfoDao {
 	
-	//根据id查询城市信息
-	CityInfo queryCityById(Integer id);
-	
+	//根据参数查询城市信息
+	List<CityInfo> queryCitiesByParam(Map<String, Object> param);
+	//根据参数查询城市，包含其所属省份信息
+	List<CityInfo> queryCitiesWithProvinceByParam(Map<String, Object> param);
 }

@@ -2,6 +2,8 @@ package com.ssm.web.city.model;
 
 import java.io.Serializable;
 
+import com.ssm.web.province.model.ProvinceInfo;
+
 //@Alias("cityInfo")
 public class CityInfo implements Serializable{
 
@@ -12,6 +14,18 @@ public class CityInfo implements Serializable{
 	private String city;			//市名称
 	private String father;			//省份标识
 	
+	private ProvinceInfo province;	//所属省份
+	
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	
+	public ProvinceInfo getProvince() {
+		return province;
+	}
+	public void setProvince(ProvinceInfo province) {
+		this.province = province;
+	}
 	public Integer getId() {
 		return id;
 	}
@@ -36,8 +50,9 @@ public class CityInfo implements Serializable{
 	public void setFather(String father) {
 		this.father = father;
 	}
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
 	
+	@Override
+	public String toString() {
+		return "id="+id+", cityid="+cityid+", city="+city+", father="+father+", province="+province;
+	}
 }

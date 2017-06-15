@@ -30,6 +30,7 @@
 		<property name="locations">
 			<array>
 				<value>classpath:conf/properties/dbType.properties</value>
+				<value>classpath:conf/properties/log4j.properties</value>
 			</array>
 		</property>
 	</bean>  

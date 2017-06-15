@@ -1,5 +1,8 @@
 package com.ssm.web.city.service;
 
+import java.util.List;
+import java.util.Map;
+
 import com.ssm.web.city.model.CityInfo;
 /**
  * 城市信息Service
@@ -8,6 +11,9 @@ import com.ssm.web.city.model.CityInfo;
  */
 public interface CityInfoService {
 
-	//根据id查询城市信息
-	CityInfo queryCityById(Integer id);
+	//根据参数查询城市信息
+	List<CityInfo> queryCitiesByParam(Map<String, Object> param);
+	//根据参数查询城市，包含其所属省份信息
+	List<CityInfo> queryCitiesWithProvinceByParam(Map<String, Object> param);
+	
 }

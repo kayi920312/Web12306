@@ -1,5 +1,9 @@
 package com.test;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.junit.Test;
 
 import com.ssm.web.city.model.CityInfo;
@@ -10,10 +14,20 @@ public class CityInfoTest extends BaseDaoBeanSupport{
 
 
 	@Test
-	public void test() {
+	public void queryCitiesByParam() {
 		CityInfoService cityInfoService = (CityInfoService) getBean("cityInfoServiceImpl");
-		CityInfo city = cityInfoService.queryCityById(1);
-		System.out.println(city.getId());
+		Map<String, Object> param = new HashMap<String, Object>();
+		param.put("id", 1);
+		List<CityInfo> cities = cityInfoService.queryCitiesByParam(param);
+		System.out.println(cities.toString());
 	}
 
+//	@Test
+	public void queryCitiesWithProvinceByParam() {
+		CityInfoService cityInfoService = (CityInfoService) getBean("cityInfoServiceImpl");
+		Map<String, Object> param = new HashMap<String, Object>();
+		param.put("id", 11);
+		List<CityInfo> cities = cityInfoService.queryCitiesWithProvinceByParam(param);
+		System.out.println();
+	}
 }
