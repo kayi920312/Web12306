@@ -13,14 +13,20 @@ public class GsonUtil {
 	
 	/**
 	 * Object to JSON
-	 * @param obj
+	 * @param Object obj
 	 * @return
 	 */
 	public final static String toJson(Object obj){
 		return gson.toJson(obj);
 	}
 	
-	/*public final static Object toBean(String json, ){
-		return gson.fromJson(json, typeOfT)
-	}*/
+	/**
+	 * JSON to Object
+	 * @param String json,Class<T> classOfT
+	 * @return
+	 */
+	public static <T> T toBean(String json,Class<T> classOfT){
+        return gson.fromJson(json, classOfT);
+    }
+	
 }
