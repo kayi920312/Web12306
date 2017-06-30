@@ -1,0 +1,944 @@
+﻿{
+    "status": "success",
+    "result": {
+        "duration": "226416.88",
+        "sessionStatus": "Done",
+        "analysisSegments": [
+            {
+                "offset": 16,
+                "duration": 13740,
+                "analysis": {
+                    "Temper": {
+                        "Value": "10.49",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "10.49",
+                            "Mode": "low",
+                            "ModePct": 100
+                        }
+                    },
+                    "Valence": {
+                        "Value": "26.87",
+                        "Group": "neutral",
+                        "Summary": {
+                            "Mean": "26.87",
+                            "Mode": "neutral",
+                            "ModePct": 100
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "1.79",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "1.79",
+                            "Mode": "low",
+                            "ModePct": 100
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": "20.66"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 9,
+                                "Phrase": "Sadness, Sorrow"
+                            },
+                            "Secondary": {
+                                "Id": 10,
+                                "Phrase": "Self-Control, Practicality"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 181,
+                                "Phrase": "Seeking contact/warmth. Fear of failure."
+                            },
+                            "Secondary": {
+                                "Id": 157,
+                                "Phrase": "Cold and remote. Conservative."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 13766,
+                "duration": 13010,
+                "analysis": {
+                    "Temper": {
+                        "Value": "14.04",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "12.27",
+                            "Mode": "low",
+                            "ModePct": 100
+                        }
+                    },
+                    "Valence": {
+                        "Value": "42.25",
+                        "Group": "neutral",
+                        "Summary": {
+                            "Mean": "34.56",
+                            "Mode": "neutral",
+                            "ModePct": 100
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "3.97",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "2.88",
+                            "Mode": "low",
+                            "ModePct": 100
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": "16.75"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 9,
+                                "Phrase": "Sadness, Sorrow"
+                            },
+                            "Secondary": {
+                                "Id": 10,
+                                "Phrase": "Self-Control, Practicality"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 181,
+                                "Phrase": "Seeking contact/warmth. Fear of failure."
+                            },
+                            "Secondary": {
+                                "Id": 157,
+                                "Phrase": "Cold and remote. Conservative."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 26786,
+                "duration": 13050,
+                "analysis": {
+                    "Temper": {
+                        "Value": "14.20",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "12.91",
+                            "Mode": "low",
+                            "ModePct": 100
+                        }
+                    },
+                    "Valence": {
+                        "Value": "58.19",
+                        "Group": "neutral",
+                        "Summary": {
+                            "Mean": "42.43",
+                            "Mode": "neutral",
+                            "ModePct": 100
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "4.73",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "3.49",
+                            "Mode": "low",
+                            "ModePct": 100
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": "17.95"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 10,
+                                "Phrase": "Self-Control, Practicality"
+                            },
+                            "Secondary": {
+                                "Id": 9,
+                                "Phrase": "Sadness, Sorrow"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 157,
+                                "Phrase": "Cold and remote. Conservative."
+                            },
+                            "Secondary": {
+                                "Id": 151,
+                                "Phrase": "Sense of failure. Strong restraint. Conflict between prudence and desires."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 39846,
+                "duration": 13270,
+                "analysis": {
+                    "Temper": {
+                        "Value": "31.51",
+                        "Group": "medium",
+                        "Summary": {
+                            "Mean": "17.56",
+                            "Mode": "low",
+                            "ModePct": 75
+                        }
+                    },
+                    "Valence": {
+                        "Value": 89,
+                        "Group": "positive",
+                        "Summary": {
+                            "Mean": "54.07",
+                            "Mode": "neutral",
+                            "ModePct": 75
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "93.33",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "25.95",
+                            "Mode": "low",
+                            "ModePct": 75
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": 100
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 6,
+                                "Phrase": "Leadership, Charisma"
+                            },
+                            "Secondary": {
+                                "Id": 1,
+                                "Phrase": "Creative, Passionate"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 146,
+                                "Phrase": "Organized and ambitious. Accomplished. Detail oriented."
+                            },
+                            "Secondary": {
+                                "Id": 11,
+                                "Phrase": "Passionate creativity. Strongly driven."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 53126,
+                "duration": 14410,
+                "analysis": {
+                    "Temper": {
+                        "Value": "86.29",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "31.31",
+                            "Mode": "low",
+                            "ModePct": 60
+                        }
+                    },
+                    "Valence": {
+                        "Value": "33.88",
+                        "Group": "neutral",
+                        "Summary": {
+                            "Mean": "50.04",
+                            "Mode": "neutral",
+                            "ModePct": 80
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "94.44",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "39.65",
+                            "Mode": "low",
+                            "ModePct": 60
+                        }
+                    },
+                    "Gender": {
+                        "Group": "male"
+                    },
+                    "AudioQuality": {
+                        "Value": "42.04"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 11,
+                                "Phrase": "Supremacy, Arrogance"
+                            },
+                            "Secondary": {
+                                "Id": 11,
+                                "Phrase": "Supremacy, Arrogance"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 132,
+                                "Phrase": "Loud. Demonstrated impatience."
+                            },
+                            "Secondary": {
+                                "Id": 174,
+                                "Phrase": "Cautious arrogance."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 67546,
+                "duration": 13440,
+                "analysis": {
+                    "Temper": {
+                        "Value": "92.36",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "41.48",
+                            "Mode": "low",
+                            "ModePct": 50
+                        }
+                    },
+                    "Valence": {
+                        "Value": "9.00",
+                        "Group": "negative",
+                        "Summary": {
+                            "Mean": "43.20",
+                            "Mode": "neutral",
+                            "ModePct": "66.67"
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "94.48",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "48.79",
+                            "Mode": "high",
+                            "ModePct": 50
+                        }
+                    },
+                    "Gender": {
+                        "Group": "male"
+                    },
+                    "AudioQuality": {
+                        "Value": 100
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 2,
+                                "Phrase": "Criticism, Cynicism"
+                            },
+                            "Secondary": {
+                                "Id": 5,
+                                "Phrase": "Hostility, Anger"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 330,
+                                "Phrase": "Criticism, forceful leadership. Possibly hysteria."
+                            },
+                            "Secondary": {
+                                "Id": 306,
+                                "Phrase": "Sense of rejection, negative communication."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 80996,
+                "duration": 13020,
+                "analysis": {
+                    "Temper": {
+                        "Value": "83.37",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "47.47",
+                            "Mode": "high",
+                            "ModePct": "42.86"
+                        }
+                    },
+                    "Valence": {
+                        "Value": "3.52",
+                        "Group": "negative",
+                        "Summary": {
+                            "Mean": "37.53",
+                            "Mode": "neutral",
+                            "ModePct": "57.14"
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "95.29",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "55.43",
+                            "Mode": "high",
+                            "ModePct": "57.14"
+                        }
+                    },
+                    "Gender": {
+                        "Group": "male"
+                    },
+                    "AudioQuality": {
+                        "Value": "69.25"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 5,
+                                "Phrase": "Hostility, Anger"
+                            },
+                            "Secondary": {
+                                "Id": 5,
+                                "Phrase": "Hostility, Anger"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 384,
+                                "Phrase": "Incitement. Negative expression of feelings."
+                            },
+                            "Secondary": {
+                                "Id": 42,
+                                "Phrase": "Aggressiveness. Possibly rage."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 97466,
+                "duration": 25890,
+                "analysis": {
+                    "Temper": {
+                        "Value": "81.80",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "51.76",
+                            "Mode": "high",
+                            "ModePct": 50
+                        }
+                    },
+                    "Valence": {
+                        "Value": "31.18",
+                        "Group": "neutral",
+                        "Summary": {
+                            "Mean": "36.73",
+                            "Mode": "neutral",
+                            "ModePct": "62.50"
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "94.37",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "60.30",
+                            "Mode": "high",
+                            "ModePct": "62.50"
+                        }
+                    },
+                    "Gender": {
+                        "Group": "male"
+                    },
+                    "AudioQuality": {
+                        "Value": "41.11"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 5,
+                                "Phrase": "Hostility, Anger"
+                            },
+                            "Secondary": {
+                                "Id": 11,
+                                "Phrase": "Supremacy, Arrogance"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 303,
+                                "Phrase": "Tough and substantive communication, arrogance, stubbornness."
+                            },
+                            "Secondary": {
+                                "Id": 354,
+                                "Phrase": "Preaching. Possibly detachment from reality."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 123366,
+                "duration": 13010,
+                "analysis": {
+                    "Temper": {
+                        "Value": "68.42",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "53.61",
+                            "Mode": "high",
+                            "ModePct": "55.56"
+                        }
+                    },
+                    "Valence": {
+                        "Value": "18.30",
+                        "Group": "negative",
+                        "Summary": {
+                            "Mean": "34.69",
+                            "Mode": "neutral",
+                            "ModePct": "55.56"
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "94.44",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "64.09",
+                            "Mode": "high",
+                            "ModePct": "66.67"
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": "10.39"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 11,
+                                "Phrase": "Supremacy, Arrogance"
+                            },
+                            "Secondary": {
+                                "Id": 5,
+                                "Phrase": "Hostility, Anger"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 117,
+                                "Phrase": "Openly confrontational."
+                            },
+                            "Secondary": {
+                                "Id": 270,
+                                "Phrase": "Burst of hostile emotions. Recklessness."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 136386,
+                "duration": 14220,
+                "analysis": {
+                    "Temper": {
+                        "Value": "14.73",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "49.72",
+                            "Mode": "high",
+                            "ModePct": 50
+                        }
+                    },
+                    "Valence": {
+                        "Value": "46.31",
+                        "Group": "neutral",
+                        "Summary": {
+                            "Mean": "35.85",
+                            "Mode": "neutral",
+                            "ModePct": 60
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "1.55",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "57.84",
+                            "Mode": "high",
+                            "ModePct": 60
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": "20.67"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 9,
+                                "Phrase": "Sadness, Sorrow"
+                            },
+                            "Secondary": {
+                                "Id": 10,
+                                "Phrase": "Self-Control, Practicality"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 181,
+                                "Phrase": "Seeking contact/warmth. Fear of failure."
+                            },
+                            "Secondary": {
+                                "Id": 157,
+                                "Phrase": "Cold and remote. Conservative."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 150616,
+                "duration": 13250,
+                "analysis": {
+                    "Temper": {
+                        "Value": "13.47",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "46.43",
+                            "Mode": "high",
+                            "ModePct": "45.45"
+                        }
+                    },
+                    "Valence": {
+                        "Value": "31.98",
+                        "Group": "neutral",
+                        "Summary": {
+                            "Mean": "35.50",
+                            "Mode": "neutral",
+                            "ModePct": "63.64"
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "2.60",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "52.82",
+                            "Mode": "high",
+                            "ModePct": "54.55"
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": "14.87"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 9,
+                                "Phrase": "Sadness, Sorrow"
+                            },
+                            "Secondary": {
+                                "Id": 10,
+                                "Phrase": "Self-Control, Practicality"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 181,
+                                "Phrase": "Seeking contact/warmth. Fear of failure."
+                            },
+                            "Secondary": {
+                                "Id": 160,
+                                "Phrase": "Seeking to rationalize feelings of joy. Possibly from embarrassment."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 164386,
+                "duration": 13480,
+                "analysis": {
+                    "Temper": {
+                        "Value": "25.09",
+                        "Group": "medium",
+                        "Summary": {
+                            "Mean": "44.65",
+                            "Mode": "high",
+                            "ModePct": "41.67"
+                        }
+                    },
+                    "Valence": {
+                        "Value": "83.44",
+                        "Group": "positive",
+                        "Summary": {
+                            "Mean": "39.49",
+                            "Mode": "neutral",
+                            "ModePct": "58.33"
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "18.21",
+                        "Group": "low",
+                        "Summary": {
+                            "Mean": "49.93",
+                            "Mode": "high",
+                            "ModePct": 50
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": "15.76"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 6,
+                                "Phrase": "Leadership, Charisma"
+                            },
+                            "Secondary": {
+                                "Id": 3,
+                                "Phrase": "Defensivness, Anxiety"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 182,
+                                "Phrase": "Optimistic. Acts with a sense of belonging. Devoted and protective."
+                            },
+                            "Secondary": {
+                                "Id": 149,
+                                "Phrase": "Conflict between desires and actual behavior. Detail oriented."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 177876,
+                "duration": 13230,
+                "analysis": {
+                    "Temper": {
+                        "Value": "36.33",
+                        "Group": "medium",
+                        "Summary": {
+                            "Mean": "44.01",
+                            "Mode": "high",
+                            "ModePct": "38.46"
+                        }
+                    },
+                    "Valence": {
+                        "Value": "91.94",
+                        "Group": "positive",
+                        "Summary": {
+                            "Mean": "43.53",
+                            "Mode": "neutral",
+                            "ModePct": "53.85"
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "95.04",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "53.40",
+                            "Mode": "high",
+                            "ModePct": "53.85"
+                        }
+                    },
+                    "Gender": {
+                        "Group": "male"
+                    },
+                    "AudioQuality": {
+                        "Value": "48.01"
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 7,
+                                "Phrase": "Loneliness, Unfulfillment"
+                            },
+                            "Secondary": {
+                                "Id": 1,
+                                "Phrase": "Creative, Passionate"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 77,
+                                "Phrase": "Longing. Emotional void combining sadness and joy."
+                            },
+                            "Secondary": {
+                                "Id": 2,
+                                "Phrase": "Assertiveness and ambition to achieve goals."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 191116,
+                "duration": 13020,
+                "analysis": {
+                    "Temper": {
+                        "Value": "82.43",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "46.75",
+                            "Mode": "high",
+                            "ModePct": "42.86"
+                        }
+                    },
+                    "Valence": {
+                        "Value": "2.65",
+                        "Group": "negative",
+                        "Summary": {
+                            "Mean": "40.61",
+                            "Mode": "neutral",
+                            "ModePct": 50
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "93.92",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "56.30",
+                            "Mode": "high",
+                            "ModePct": "57.14"
+                        }
+                    },
+                    "Gender": {
+                        "Group": "female"
+                    },
+                    "AudioQuality": {
+                        "Value": 0
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 10,
+                                "Phrase": "Self-Control, Practicality"
+                            },
+                            "Secondary": {
+                                "Id": 11,
+                                "Phrase": "Supremacy, Arrogance"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 123,
+                                "Phrase": "Conflict between emotional response and an attempt to appear in control."
+                            },
+                            "Secondary": {
+                                "Id": 312,
+                                "Phrase": "Vain talkativeness, arrogance."
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "offset": 204146,
+                "duration": 13800,
+                "analysis": {
+                    "Temper": {
+                        "Value": "86.12",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "49.38",
+                            "Mode": "high",
+                            "ModePct": "46.67"
+                        }
+                    },
+                    "Valence": {
+                        "Value": "3.39",
+                        "Group": "negative",
+                        "Summary": {
+                            "Mean": "38.13",
+                            "Mode": "neutral",
+                            "ModePct": "46.67"
+                        }
+                    },
+                    "Arousal": {
+                        "Value": "89.54",
+                        "Group": "high",
+                        "Summary": {
+                            "Mean": "58.51",
+                            "Mode": "high",
+                            "ModePct": 60
+                        }
+                    },
+                    "Gender": {
+                        "Group": "male"
+                    },
+                    "AudioQuality": {
+                        "Value": 100
+                    },
+                    "Mood": {
+                        "Group11": {
+                            "Primary": {
+                                "Id": 11,
+                                "Phrase": "Supremacy, Arrogance"
+                            },
+                            "Secondary": {
+                                "Id": 5,
+                                "Phrase": "Hostility, Anger"
+                            }
+                        },
+                        "Composite": {
+                            "Primary": {
+                                "Id": 360,
+                                "Phrase": "Possessiveness. Extroverted egocentricity. Possibly pride."
+                            },
+                            "Secondary": {
+                                "Id": 294,
+                                "Phrase": "Confrontational and bombastic."
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "analysisSummary": {
+            "AnalysisResult": {
+                "Temper": {
+                    "Mean": "49.38",
+                    "Mode": "high",
+                    "ModePct": "46.67"
+                },
+                "Valence": {
+                    "Mean": "38.13",
+                    "Mode": "neutral",
+                    "ModePct": "46.67"
+                },
+                "Arousal": {
+                    "Mean": "58.51",
+                    "Mode": "high",
+                    "ModePct": 60
+                }
+            }
+        }
+    },
+    "recordingId": "6ef8209d-403e-47b2-8f37-d980c9377eb9"
+}
