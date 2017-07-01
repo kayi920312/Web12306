@@ -7,14 +7,20 @@ package com.ssm.web.bv.model;
 public class RevealableResult {
 	
 	private String timePoint;//时间点
-	private Integer offset;//下一个结果的时间点
-	private String status;//分析状态
 	private Valence valence;
 	private Arousal arousal;
 	private Temper temper;
 	private Mood mood;
 	private CompositeMood compositeMood;
-	
+
+	public String getTimePoint() {
+		return timePoint;
+	}
+
+	public void setTimePoint(String timePoint) {
+		this.timePoint = timePoint;
+	}
+
 	public Valence getValence() {
 		return valence;
 	}
@@ -54,31 +60,6 @@ public class RevealableResult {
 	public void setCompositeMood(CompositeMood compositeMood) {
 		this.compositeMood = compositeMood;
 	}
-
-	public String getStatus() {
-		return status;
-	}
-
-	public void setStatus(String status) {
-		this.status = status;
-	}
-
-	public String getTimePoint() {
-		return timePoint;
-	}
-
-	public void setTimePoint(String timePoint) {
-		this.timePoint = timePoint;
-	}
-
-	public Integer getOffset() {
-		return offset;
-	}
-
-	public void setOffset(Integer offset) {
-		this.offset = offset;
-	}
-
 
 	//valence
 	public class Valence{
