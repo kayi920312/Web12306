@@ -1,38 +1,35 @@
 package com.ssm.web.bv.model;
 
-import java.util.Map;
-
 public class Mood {
 	
-	private Map<String, Composite> composite;
-	private Map<String, Group11> group11;
-	private Map<String, Group21> group21;
-	private Map<String, Group7> group7;
+	private Composite Composite;
+	private Group11 Group11;
+	private Group21 Group21;
+	private Group7 Group7;
 	
-	public Map<String, Composite> getComposite() {
-		return composite;
+	public Composite getComposite() {
+		return Composite;
 	}
-	public void setComposite(Map<String, Composite> composite) {
-		this.composite = composite;
+	public void setComposite(Composite composite) {
+		Composite = composite;
 	}
-	public Map<String, Group11> getGroup11() {
-		return group11;
+	public Group11 getGroup11() {
+		return Group11;
 	}
-	public void setGroup11(Map<String, Group11> group11) {
-		this.group11 = group11;
+	public void setGroup11(Group11 group11) {
+		Group11 = group11;
 	}
-	public Map<String, Group21> getGroup21() {
-		return group21;
+	public Group21 getGroup21() {
+		return Group21;
 	}
-	public void setGroup21(Map<String, Group21> group21) {
-		this.group21 = group21;
+	public void setGroup21(Group21 group21) {
+		Group21 = group21;
 	}
-	public Map<String, Group7> getGroup7() {
-		return group7;
+	public Group7 getGroup7() {
+		return Group7;
 	}
-	public void setGroup7(Map<String, Group7> group7) {
-		this.group7 = group7;
+	public void setGroup7(Group7 group7) {
+		Group7 = group7;
 	}
-	
 	
 }

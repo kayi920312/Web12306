@@ -1,19 +1,16 @@
 package com.ssm.web.bv.model;
 
-import java.util.Map;
-
 public class AnalysisSummary {
 	
-	private Map<String, AnalysisResult> analysisResult;
+	private AnalysisResult AnalysisResult;
 
-	public Map<String, AnalysisResult> getAnalysisResult() {
-		return analysisResult;
+	public AnalysisResult getAnalysisResult() {
+		return AnalysisResult;
 	}
 
-	public void setAnalysisResult(Map<String, AnalysisResult> analysisResult) {
-		this.analysisResult = analysisResult;
+	public void setAnalysisResult(AnalysisResult analysisResult) {
+		AnalysisResult = analysisResult;
 	}
 
-	
 	
 }

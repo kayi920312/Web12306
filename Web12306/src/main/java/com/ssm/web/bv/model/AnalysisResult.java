@@ -1,31 +1,28 @@
 package com.ssm.web.bv.model;
 
-import java.util.Map;
-
 public class AnalysisResult {
 	
-	private Map<String, Summary> temper;
-	private Map<String, Summary> valence;
-	private Map<String, Summary> arousal;
+	private Summary Temper;
+	private Summary Valence;
+	private Summary Arousal;
 	
-	public Map<String, Summary> getTemper() {
-		return temper;
+	public Summary getTemper() {
+		return Temper;
 	}
-	public void setTemper(Map<String, Summary> temper) {
-		this.temper = temper;
+	public void setTemper(Summary temper) {
+		Temper = temper;
 	}
-	public Map<String, Summary> getValence() {
-		return valence;
+	public Summary getValence() {
+		return Valence;
 	}
-	public void setValence(Map<String, Summary> valence) {
-		this.valence = valence;
+	public void setValence(Summary valence) {
+		Valence = valence;
 	}
-	public Map<String, Summary> getArousal() {
-		return arousal;
+	public Summary getArousal() {
+		return Arousal;
 	}
-	public void setArousal(Map<String, Summary> arousal) {
-		this.arousal = arousal;
+	public void setArousal(Summary arousal) {
+		Arousal = arousal;
 	}
-	
 	
 }

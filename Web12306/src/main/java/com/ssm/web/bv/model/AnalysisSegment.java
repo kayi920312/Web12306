@@ -1,12 +1,10 @@
 package com.ssm.web.bv.model;
 
-import java.util.Map;
-
 public class AnalysisSegment {
 	
 	private Integer offset;
 	private Integer duration;
-	private Map<String, Analysis> analysis;
+	private Analysis analysis;
 	
 	public Integer getOffset() {
 		return offset;
@@ -20,10 +18,10 @@ public class AnalysisSegment {
 	public void setDuration(Integer duration) {
 		this.duration = duration;
 	}
-	public Map<String, Analysis> getAnalysis() {
+	public Analysis getAnalysis() {
 		return analysis;
 	}
-	public void setAnalysis(Map<String, Analysis> analysis) {
+	public void setAnalysis(Analysis analysis) {
 		this.analysis = analysis;
 	}
 	

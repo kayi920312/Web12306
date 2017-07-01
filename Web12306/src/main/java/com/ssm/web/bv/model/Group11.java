@@ -1,23 +1,21 @@
 package com.ssm.web.bv.model;
 
-import java.util.Map;
-
 public class Group11 {
 	
-	private Map<String, Primary> primaryMap;
-	private Map<String, Secondary> secondaryMap;
+	private Primary Primary;
+	private Secondary Secondary;
 	
-	public Map<String, Primary> getPrimaryMap() {
-		return primaryMap;
+	public Primary getPrimary() {
+		return Primary;
 	}
-	public void setPrimaryMap(Map<String, Primary> primaryMap) {
-		this.primaryMap = primaryMap;
+	public void setPrimary(Primary primary) {
+		Primary = primary;
 	}
-	public Map<String, Secondary> getSecondaryMap() {
-		return secondaryMap;
+	public Secondary getSecondary() {
+		return Secondary;
 	}
-	public void setSecondaryMap(Map<String, Secondary> secondaryMap) {
-		this.secondaryMap = secondaryMap;
+	public void setSecondary(Secondary secondary) {
+		Secondary = secondary;
 	}
 	
 }

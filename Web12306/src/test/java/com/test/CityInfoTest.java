@@ -13,7 +13,7 @@ import com.test.base.BaseDaoBeanSupport;
 public class CityInfoTest extends BaseDaoBeanSupport{
 
 
-	@Test
+//	@Test
 	public void queryCitiesByParam() {
 		CityInfoService cityInfoService = (CityInfoService) getBean("cityInfoServiceImpl");
 		Map<String, Object> param = new HashMap<String, Object>();
@@ -22,7 +22,7 @@ public class CityInfoTest extends BaseDaoBeanSupport{
 		System.out.println(cities.toString());
 	}
 
-//	@Test
+	@Test
 	public void queryCitiesWithProvinceByParam() {
 		CityInfoService cityInfoService = (CityInfoService) getBean("cityInfoServiceImpl");
 		Map<String, Object> param = new HashMap<String, Object>();
@@ -30,4 +30,5 @@ public class CityInfoTest extends BaseDaoBeanSupport{
 		List<CityInfo> cities = cityInfoService.queryCitiesWithProvinceByParam(param);
 		System.out.println();
 	}
+	
 }

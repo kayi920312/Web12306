@@ -1,12 +1,10 @@
 package com.ssm.web.bv.model;
 
-import java.util.Map;
-
 public class Arousal {
 	
 	private String Value;
 	private String Group;
-	private Map<String, Summary> summary;
+	private Summary Summary;
 	
 	public String getValue() {
 		return Value;
@@ -20,11 +18,11 @@ public class Arousal {
 	public void setGroup(String group) {
 		Group = group;
 	}
-	public Map<String, Summary> getSummary() {
-		return summary;
+	public Summary getSummary() {
+		return Summary;
 	}
-	public void setSummary(Map<String, Summary> summary) {
-		this.summary = summary;
+	public void setSummary(Summary summary) {
+		Summary = summary;
 	}
 	
 }

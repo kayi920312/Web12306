@@ -25,7 +25,7 @@ public class GsonUtil {
 	 * @param String json,Class<T> classOfT
 	 * @return
 	 */
-	public static <T> T toBean(String json,Class<T> classOfT){
+	public final static <T> T toBean(String json, Class<T> classOfT){
         return gson.fromJson(json, classOfT);
     }
 	
