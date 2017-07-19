@@ -28,7 +28,7 @@ public class CityInfoTest extends BaseDaoBeanSupport{
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("id", 11);
 		List<CityInfo> cities = cityInfoService.queryCitiesWithProvinceByParam(param);
-		System.out.println();
+		System.out.println(cities.size());
 	}
 	
 }
